@@ -74,9 +74,10 @@
      <li>Loop end</li>
     </ul></i>
     <p><strong>//Final processing, after loop</strong></p>
-    Normalization of S1, S2 and S3 scores (0 to 1);
-S4 → (5*S1 + 2*S2 + 3*S3) / 10;
- S5 → result of text classification based on ensemble;
-    <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.
+    <i>
+  <p> Normalization of S1, S2 and S3 scores (0 to 1);</p>
+<p> S4 → (5*S1 + 2*S2 + 3*S3) / 10;</p>
+<p>  S5 → result of text classification based on ensemble;</p>
+  <p>   <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.</p>
 
     
