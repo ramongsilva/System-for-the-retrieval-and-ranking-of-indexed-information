@@ -5,7 +5,7 @@
     <h2>Table of points for S1 and S2 scores calculation on the  retrieval and ranking algorithm</h2>
     <img src='images/Table-with-points.jpg' style="display:block; margin: 0 auto;">
     <h2>Description of algorithm for ranking indexed PubMed abstracts </h2>    
-    <pre>
+    <code>
     <p>The algorithm performs the retrieval and ranking of indexed articles based on the user's search type: search for polyphenol, search for cancer, search for gene, search for polyphenol-cancer, or search for polyphenol-gene. From there, the execution continues:</p>
     <p><strong>Search for polyphenol</strong></p>
     <i><ul>
@@ -80,5 +80,5 @@
 <p> S4 → (5*S1 + 2*S2 + 3*S3) / 10;</p>
 <p>  S5 → result of text classification based on ensemble;</p>
   <p>   <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.</p>
-</pre>
+</code>
     
