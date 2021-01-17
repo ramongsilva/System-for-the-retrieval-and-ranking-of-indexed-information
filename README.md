@@ -1,2 +1,8 @@
-# System-for-the-retrieval-and-ranking-of-indexed-information-
-This repository contains files and information about the step 4 of Kaphta Architecture: System for the retrieval and ranking of indexed information, using the R language.
+<h1>System for the retrieval and ranking of indexed information</h1>
+<p>This repository contains files and information about the <strong> step 4 of Kaphta Architecture: System for the retrieval and ranking of indexed information</strong>. In this stage are presented 5 algorithms for 5 search types: search for polyphenol, search for cancer, search for gene, search for polyphenol-cancer, e search for polyphenol-gene. According to the type of search performed, the system retrieves indexed abstracts in past stage (<a href='https://github.com/ramongsilva/Indexing-of-extracted-information'>Indexing of Extracted Information step</a>) and submits them to the ranking algorithm that returns five scores (S1, S2, S3, S4, and S5) for each abstract. In the algorithm, the calculation of S1, S2 and S3 varies according to the type of search (search for polyphenol, search for cancer, search for gene, search for polyphenol-cancer, or search for polyphenol-gene). Scores S1 and S2 are calculated considering the number and type of sentence (PC – polyphenol-cancer sentences; PG – polyphenol-gene sentences; P – only polyphenol sentences; C – only cancer sentences; G – only gene sentences) containing recognized entities and rules. The points assigned are different for the different types of sentences (PC, PG, P, C, and G) (see table below). 
+
+  
+  
+  
+  PubMed abstracts  with extracted information (<a href='https://github.com/ramongsilva/Information-extraction-from-pubmed-abstracts-sentences-on-polyphenols-anticancer-activity'>Information Extraction step</a>) are indexed. There are 2 indexations, using the R language: Individual and Cross indexations. The individual indexations are for entities about polyphenols, cancer and genes, and the cross indexations are for polyphenol-cancer and polyphenol-gene entity associations. The following are listed the files and results of this stage.
+  </p>
