@@ -79,7 +79,7 @@
   <p> Normalization of S1, S2 and S3 scores (0 to 1);</p>
 <p> S4 → (5*S1 + 2*S2 + 3*S3) / 10;</p>
 <p>  S5 → result of text classification based on ensemble;</p>
-  <p>   <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.</p>
+  <p>   <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.</p></i>
 </code>  
    <h2>Example of algorithm for search of polyphenol-cancer </h2>    
   <p>The following files listed are a exemple of Algorithm for ranking indexed PubMed abstracts for a polyphenol-cancer search. In the Kaphta Web Tool there is the implementation complete of algorithm.</p>
