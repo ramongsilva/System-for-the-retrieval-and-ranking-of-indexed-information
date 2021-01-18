@@ -80,5 +80,20 @@
 <p> S4 → (5*S1 + 2*S2 + 3*S3) / 10;</p>
 <p>  S5 → result of text classification based on ensemble;</p>
   <p>   <strong>Result (output) → list of the PubMed abstracts with extracted information and ranking scores calculated</strong>.</p>
-</code>
-    
+</code>  
+   <h2>Example of algorithm for search of polyphenol-cancer </h2>    
+  <p>The following files listed are a exemple of Algorithm for ranking indexed PubMed abstracts for a polyphenol-cancer search. In the Kaphta Web Tool there is the implementation complete of algorithm.</p>
+  
+  <ul>
+  <li><a href='https://github.com/ramongsilva/Indexing-of-extracted-information/blob/main/indexing-information-extracted-gh.R'>indexing-information-extracted-gh.R</a>: R script for individual and cross indexation of extracted information from PubMed abstracts about polyphenols anticancer activity, using inverted index.</li>  
+  <li><a href='https://github.com/ramongsilva/Indexing-of-extracted-information/blob/main/functions.R'>functions.R</a>: script with auxiliar functions. Save this file in the same folder of indexing-information-extracted-gh.R script, because it is needed to execute this script.</li>
+<li><a href='https://drive.google.com/file/d/1lQRdff2YpagowcLcdVSF5z2AO5tdwOIS/view?usp=sharing' target='_blank'>db_total_project.db</a>:  SQLite Database needed to execute all R scripts of kaphta architecture steps. This database contains tables with the<strong> Entity dictionary, Total PubMed abstracts textual corpus, and Pubmed abstracts classified as positive in text classification</strong>. Save this file in the same folder of indexing-information-extracted-gh.R script, because it is needed to execute this script.</li>
+  
+  <li><a href='https://github.com/ramongsilva/Indexing-of-extracted-information/tree/main/entities-recognized'>entities-recognized</a>: folder with files resulted of NER task, containing extracted information about named entities (polyphenols, cancers and genes) recognized on PubMed abstracts  in the previous stage (<a href='https://github.com/ramongsilva/Information-extraction-from-pubmed-abstracts-sentences-on-polyphenols-anticancer-activity'>Information Extraction step</a>). Save this folder with the files in the same folder of indexing-information-extracted-gh.R script, because it is needed to execute this script, on indexation task.</li>  
+    <li><a href='https://github.com/ramongsilva/Indexing-of-extracted-information/blob/main/Rule_associations_recognized.rar'>Rule_associations_recognized.rar</a>: compacted file resulted of AR task in previous stage (<a href='https://github.com/ramongsilva/Information-extraction-from-pubmed-abstracts-sentences-on-polyphenols-anticancer-activity'>Information Extraction step</a>), containing the PubMed abstract sentences with at least one rule from rules dictionary recognized. Save this file in the same folder of indexing-information-extracted-gh.R script, because it is needed to execute this script, on indexation tasks.</li>
+  
+  
+</ul>
+
+  
+  
