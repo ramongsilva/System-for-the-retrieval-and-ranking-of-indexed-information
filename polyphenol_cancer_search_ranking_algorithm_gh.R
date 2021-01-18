@@ -101,7 +101,7 @@ id_cancer = '15585'
 # Start of algorithm processing
 
 # Retrieving datafames with indexing of polyphenol-cancer associations
-setwd("project-folder/information-indexed")
+setwd("project-folder/indexed-information")
 df_cross_index_polyphenol_cancer = read.table(file = 'df_cross_indexation_polyphenol_cancer_association.tsv', stringsAsFactors = FALSE, sep = '\t', fill = TRUE)
 # Selecting indexed pubmed abstracts with the polyphenol and cancer searched
 articles_intersect = unlist(strsplit(df_cross_index_polyphenol_cancer[(df_cross_index_polyphenol_cancer$id_polifenol == id_polifenol & df_cross_index_polyphenol_cancer$id_cancer == id_cancer),]$pmids,','))
